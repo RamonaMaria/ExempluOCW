@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ionut_000.colocviu.colocviuMsin">
+
+    <Button
+        android:id="@+id/navigate_to_secondary_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="navigate to secondary activity" />
+
+    <EditText
+        android:id="@+id/introduce_yourself_edit_text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:layout_alignParentLeft="true"
+        android:enabled="false"
+        android:saveEnabled="false"
+        android:layout_below="@id/navigate_to_secondary_activity_button"
+        android:inputType="number" >
+    </EditText>
+    <Button
+        android:id="@+id/submit_button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/introduce_yourself_edit_text_1"
+        android:text="PRESS ME!" />
+
+    <EditText
+        android:id="@+id/introduce_yourself_edit_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:enabled="false"
+        android:saveEnabled="false"
+        android:layout_below="@id/navigate_to_secondary_activity_button"
+        android:layout_alignParentRight="true"
+        android:inputType="number">
+    </EditText>
+    <Button
+        android:id="@+id/submit_button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRESS ME, TOO!"
+        android:layout_below="@id/introduce_yourself_edit_text_2"
+        android:layout_alignParentRight="true"
+        />
+    />
+
+</RelativeLayout>

@@ -22,4 +22,8 @@ public interface Constants {
     final public static int NUMBER_OF_CLICKS_THRESHOLD = 10;
     Boolean SERVICE_STARTED = false; // sunt bine puse?
     Boolean SERVICE_STOPPED = true; // nu inteleg ce sa fie  astea doua campuridac. pai de unde sa stiu eu ce sunt campurile alea 2
+
+
+
+// lala
 }
